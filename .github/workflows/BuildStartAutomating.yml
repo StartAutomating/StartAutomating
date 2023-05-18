@@ -20,4 +20,4 @@ jobs:
       - name: UsePiecemeal
         uses: StartAutomating/Piecemeal@main
 env: 
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
