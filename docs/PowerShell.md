@@ -26,4 +26,4 @@ We helped build the PowerShell language, and we love helping people improve thei
 
 We offer several [Services](/Services/) to help you supercharge your scripting.
 
-[Contact Us](/Contact/) to see how we can help.
+[Contact Us](/Contact-Us/) to see how we can help.
