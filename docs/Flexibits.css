@@ -1,0 +1,215 @@
+/*
+
+Flexibits: Simple Responsive CSS.
+
+Flexibits is a simple CSS framework for writing responsive and dynamic websites.
+
+It is built around a few CSS features:
+
+*/
+
+/*
+## flex-* attributes
+
+CSS3 flex attributes can do everything more complex frameworks like Bootstrap can do with less code.
+
+Flexibits lets you use flex attributes without having to flex to many mental muscles.
+
+*/
+
+.flexible, .flexi-bits {
+    display: flex;    
+}
+
+.flexRow, .flexi-row {
+    flex-direction: row;
+}
+
+.flexColumn, .flexi-column {
+    flex-direction: column;
+}
+
+.flexCentered, .centeredFlex, .flexi-bits-center {
+    justify-content: center;
+}
+
+.flexi-normal {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+
+.flexi-grow {
+  flex-grow: 2
+}
+
+.flexi-shrink {
+  flex-shrink: 2;
+}
+
+.flexi-space {
+  display: flex;
+  content: '';
+  flex-grow: 1;
+}
+
+.flexi-margin {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rowOrColumn, .flexi-row-or-column {
+    flex-direction: row;
+}
+
+@media (max-width: 960px) {    
+    .rowOrColumn, .flexi-row-or-column {
+        flex-direction: column;
+    }
+}
+
+
+
+@media (min-width: 1921px) {
+  body {
+      font-size: 2.25em;
+  }
+}
+
+@media (min-width: 1721px) {    
+  body {
+      font-size: 1.75em;
+  }
+}
+
+@media (min-width: 961px) {    
+  body {
+      font-size: 1.5em;
+  }
+}
+
+/*
+A simple fractional box model (beween 1-10):
+*/
+
+.whole-width  , .WholeWidth   , .width-1                  { width: 100%;}
+.half-width   , .HalfWidth    , .width-1_2  , .width-1-2  { width: 50%; }
+.third-width  , .ThirdWidth   , .width-1_3  , .width-1-3  { width: 33.3333%;}
+.quarter-width, .QuarterWidth , .width-1_4  , .width-1-4  { width: 25%; }
+.fifth-width  , .FifthWidth   , .width-1_5  , .width-1-5  { width: 20%  }
+.sixth-width  , .SixthWidth   , .width-1_6  , .width-1-6  { width: 16.6666% }
+.seventh-width, .SeventhWidth , .width-1_7  , .width-1-7  { width: 14.2857% }
+.eigth-width  , .EigthWidth   , .width-1_8  , .width-1-8  { width: 12.5% }
+.ninth-width  , .NinthWidth   , .width-1_9  , .width-1-9  { width: 11.1111% }
+.tenth-width  , .TenthWidth   , .width-1_10 , .width-1-10 { width: 10% }
+
+
+.whole-height  , .WholeHeight   , .height-1                   { height: 100%;}
+.half-height   , .HalfHeight    , .height-1_2  , .height-1-2  { height: 50%; }
+.third-height  , .ThirdHeight   , .height-1_3  , .height-1-3  { height: 33.3333%;}
+.quarter-height, .QuarterHeight , .height-1_4  , .height-1-4  { height: 25%; }
+.fifth-height  , .FifthHeight   , .height-1_5  , .height-1-5  { height: 20%  }
+.sixth-height  , .SixthHeight   , .height-1_6  , .height-1-6  { height: 16.6666% }
+.seventh-height, .SeventhHeight , .height-1_7  , .height-1-7  { height: 14.2857% }
+.eigth-height  , .EigthHeight   , .height-1_8  , .height-1-8  { height: 12.5% }
+.ninth-height  , .NinthHeight   , .height-1_9  , .height-1-9  { height: 11.1111% }
+.tenth-height  , .TenthHeight   , .height-1_10 , .height-1-10 { height: 10% }
+
+
+
+/*
+
+*/
+.halfOrWholeWidth { width: 50% }
+
+.pad {
+    padding: 2.5%;
+}
+
+.centeredText {
+    text-align: center;
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flexible > div {
+    margin: .5em;
+    padding: 2em
+}
+
+.flexible > h1 {
+  margin: .5em;
+  padding: .5em;
+}
+
+.flexible > h2 {
+  margin: .5em;
+  padding: 1em;
+}
+
+.flexible > h3 {
+  margin:  .5em;
+  padding: 2em;
+}
+
+.collapsible {
+  visibility: visible;
+}
+  
+
+@media (min-width: 1920px) {  
+  .rowOrColumn {
+    flex-direction: row;
+  }
+  .flexi-expand-width {
+    width: 50%
+  }
+  .flexi-expand-height {
+    height: 100%;
+  }
+}
+
+@media (max-width: 1720px) {
+  
+  .rowOrColumn {
+    flex-direction: column;
+  }
+  .flexi-expand-width {
+    width: 75%
+  }
+  .flexi-expand-height {
+    height: 100%;
+  }
+}
+
+@media (max-width: 960px) {
+    .collapsible {
+      visibility: collapse;
+    }
+    .rowOrColumn {
+      flex-direction: column;
+    }
+    .flexi-expand-width {
+      width: 90%
+    }
+    .flexi-expand-height {
+      height: 100%;
+    }
+}
+
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.verbBig {
+    font-size: 3em;
+}
+
+.big {
+    font-size: 2em;
+}
