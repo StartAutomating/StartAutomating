@@ -183,8 +183,8 @@ $defineExo2 = svg.GoogleFont -FontName "Exo 2"
 ) -OutputPath (Join-Path $assetsPath "StartAutomating-Icon.svg")
 
 $docsRoot = Join-Path $PSScriptRoot docs
-$docsAssets = Join-Path $docsRoot .\Assets
+$docsAssets = Join-Path $docsRoot Assets
 if (-not (Test-Path $docsAssets)) {
     $null = New-Item -Path $docsAssets -ItemType Directory -Force
 }
-Get-ChildItem -Path $assetsPath -Filter *.svg | Copy-Item -Destination $docsPath -PassThru
+Get-ChildItem -Path $assetsPath -Filter *.svg | Copy-Item -Destination $docsAssets -PassThru
