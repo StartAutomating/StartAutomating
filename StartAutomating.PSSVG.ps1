@@ -187,4 +187,6 @@ $docsAssets = Join-Path $docsRoot Assets
 if (-not (Test-Path $docsAssets)) {
     $null = New-Item -Path $docsAssets -ItemType Directory -Force
 }
-Get-ChildItem -Path $assetsPath -Filter *.svg | Copy-Item -Destination $docsAssets -PassThru
+Get-ChildItem -Path $assetsPath |
+    Where-Object Extension -in .svg, .png |
+    Copy-Item -Destination $docsAssets -PassThru
