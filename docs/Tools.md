@@ -18,8 +18,8 @@ Some of our most popular tools include:
 |[Splatter](https://github.com/StartAutomating/Splatter)      |Simple Scripts to Supercharge Splatting                                                                                         |
 |[PipeScript](https://github.com/StartAutomating/PipeScript)  |An Extensible Transpiler for PowerShell (and anything else)                                                                     |
 |[PowerArcade](https://github.com/StartAutomating/PowerArcade)|A Retro Arcade Game Console in PowerShell                                                                                       |
-|[EZOut](https://github.com/StartAutomating/EZOut)            |EZOut is a PowerShell module to help take the pain out of writing format and types XML                                          |
 |[Benchpress](https://github.com/StartAutomating/Benchpress)  |Easy Benchmarking with PowerShell                                                                                               |
+|[EZOut](https://github.com/StartAutomating/EZOut)            |EZOut is a PowerShell module to help take the pain out of writing format and types XML                                          |
 |[ugit](https://github.com/StartAutomating/ugit)              |Updated Git: A powerful PowerShell wrapper for git that lets you extend git, automate multiple repos, and output git as objects.|
 |[ScriptCop](https://github.com/StartAutomating/ScriptCop)    |ScriptCop is a static analysis and testing tool for Windows PowerShell                                                          |
 
@@ -34,7 +34,7 @@ Here are all of our public repositories.
 |[Benchpress](https://github.com/StartAutomating/Benchpress)                              |Easy Benchmarking with PowerShell                                                                                               |
 |[CodeCraft](https://github.com/StartAutomating/CodeCraft)                                |CodeCraft is a Powershell module full of code generators that helps you crank out tedious code.                                 |
 |[Discovery](https://github.com/StartAutomating/Discovery)                                |Discovery is a powerful PowerShell module that lets you probe the inner depths of the operating system.                         |
-|[Eventful](https://github.com/StartAutomating/Eventful)                                  |Easy Eventful Asynchronous Scripting with PowerShell                                                                            |
+|[Eventful](https://github.com/StartAutomating/Eventful)                                  |Easy Eventful PowerShell                                                                                                        |
 |[EZOut](https://github.com/StartAutomating/EZOut)                                        |EZOut is a PowerShell module to help take the pain out of writing format and types XML                                          |
 |[formulaic](https://github.com/StartAutomating/formulaic)                                |Formulaic is a PowerShell module containing useful math, physics, and statistcs functions                                       |
 |[GitPub](https://github.com/StartAutomating/GitPub)                                      |Easily Automate Publishing from GitHub                                                                                          |
